@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA" serialisationVersion="2">
+    <checkstyleVersion>8.31</checkstyleVersion>
+    <scanScope>JavaOnly</scanScope>
+    <option name="thirdPartyClasspath">
+      <option value="$PROJECT_DIR$/.lift/checkstyle-lift.jar" />
+    </option>
+    <option name="activeLocationIds">
+      <option value="d3ff8209-ba87-48bb-a6fd-a909c44b5e3d" />
+    </option>
+    <option name="locations">
+      <list>
+        <ConfigurationLocation id="62579d34-2314-46f6-a386-db221288cc7e" type="BUNDLED" scope="All" description="Sun Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="5ae859c6-0b6c-4976-9e0b-6fb21dc40e59" type="BUNDLED" scope="All" description="Google Checks">(bundled)</ConfigurationLocation>
+        <ConfigurationLocation id="d3ff8209-ba87-48bb-a6fd-a909c44b5e3d" type="LOCAL_FILE" scope="All" description="COS 126 Checks">
+          $PROJECT_DIR$/.lift/checkstyle-cos126.xml
+          <option name="properties">
+            <map>
+              <entry key="basedir" value="$PROJECT_DIR$" />
+              <entry key="suppressions" value="checkstyle-suppressions.xml" />
+            </map>
+          </option>
+        </ConfigurationLocation>
+      </list>
+    </option>
+  </component>
+</project>
